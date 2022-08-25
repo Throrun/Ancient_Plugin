@@ -1,0 +1,12 @@
+name: AncientBlock
+version: '${project.version}'
+main: ancientblockplugin.ancientblock.AncientBlock
+api-version: 1.19
+authors: [ Throrun ]
+commands:
+  login:
+    usage: /login <password>
+    permission: ancientblock.login
+  register:
+    usage: /register <password> <repeat password>
+    permission: ancientblock.register
